@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="问题二主方法：MATDF 缺失感知时序动态融合网络" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="title" value="MATDF 缺失感知时序动态融合网络" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="20" width="1000" height="45" as="geometry" />
         </mxCell>
         <mxCell id="network_panel" value="MATDF Network Architecture" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8f9fa;strokeColor=#6c757d;fontSize=18;fontStyle=1;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
@@ -20,7 +20,7 @@
           <mxGeometry x="1200" y="135" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="text_encoder" value="Text Encoder&#xa;BERT-based Encoder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="240" width="220" height="80" as="geometry" />
+          <mxGeometry x="181" y="240" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="audio_encoder" value="Audio Encoder&#xa;Projection + BiGRU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="240" width="220" height="80" as="geometry" />
