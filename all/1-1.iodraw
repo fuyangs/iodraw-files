@@ -143,7 +143,7 @@
           <mxGeometry x="375" y="1060" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#D69A5E;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;" parent="1" vertex="1">
-          <mxGeometry x="990" y="1080" width="350" height="60" as="geometry" />
+          <mxGeometry x="990" y="1060" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_bigru_pool" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1.4;           endArrow=block;endFill=1;" parent="1" source="fusion_bigru" target="pool" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -151,8 +151,8 @@
         <mxCell id="e_pool_class" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1.4;           endArrow=block;endFill=1;" parent="1" source="pool" target="classification_head" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="1015" />
-              <mxPoint x="550" y="1015" />
+              <mxPoint x="850" y="1040" />
+              <mxPoint x="550" y="1040" />
             </Array>
           </mxGeometry>
         </mxCell>
