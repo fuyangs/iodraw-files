@@ -99,7 +99,7 @@
         <mxCell id="gap_embedding" value="Gap Embedding&#xa;使用可学习缺口向量表示&#xa;当前时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#D59067;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;" parent="1" vertex="1">
           <mxGeometry x="1060" y="720" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e_ht_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#7C919F;strokeWidth=1.3;           endArrow=block;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;curved=0;shape=link;" parent="1" source="ht" edge="1">
+        <mxCell id="e_ht_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#7C919F;strokeWidth=1.3;           endArrow=block;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;curved=0;" parent="1" source="ht" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="340" y="400" />
