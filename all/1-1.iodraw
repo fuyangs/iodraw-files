@@ -145,7 +145,7 @@
         <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#d6b656;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="990" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e_bigru_pool" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1.3;           endArrow=block;endFill=1;" parent="1" source="fusion_bigru" target="pool" edge="1">
+        <mxCell id="e_bigru_pool" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1.3;           endArrow=block;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="fusion_bigru" target="pool" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_pool_class" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#6F9ABF;strokeWidth=1.3;           endArrow=block;endFill=1;curved=0;" parent="1" source="pool" target="classification_head" edge="1">
