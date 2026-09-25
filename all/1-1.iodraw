@@ -95,10 +95,10 @@
           <mxGeometry x="541" y="662" width="310" height="28" as="geometry" />
         </mxCell>
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;" parent="1" vertex="1">
-          <mxGeometry x="849" y="675" width="310" height="28" as="geometry" />
+          <mxGeometry x="851" y="662" width="310" height="28" as="geometry" />
         </mxCell>
         <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="360" y="703" width="280" height="70" as="geometry" />
+          <mxGeometry x="360" y="690" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#b85450;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1060" y="703" width="280" height="70" as="geometry" />
