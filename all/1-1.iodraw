@@ -212,7 +212,7 @@
         <mxCell id="e_cons1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#6F9DC2;strokeWidth=1.25;           endArrow=block;endFill=1;curved=0;" parent="1" source="pred_full" target="consistency" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_cons2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#6F9DC2;strokeWidth=1.25;           endArrow=block;endFill=1;curved=0;" parent="1" source="pred_missing" target="consistency" edge="1">
+        <mxCell id="e_cons2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#6F9DC2;strokeWidth=1.25;           endArrow=block;endFill=1;curved=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="pred_missing" target="consistency" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_distill1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#C67662;strokeWidth=1.25;           endArrow=block;endFill=1;" parent="1" source="teacher_text" target="teacher_pca" edge="1">
