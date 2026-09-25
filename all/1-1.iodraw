@@ -109,7 +109,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="gap_embedding" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#F19C99;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#f8cecc;opacity=70;" parent="1" vertex="1">
+        <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#9673a6;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#e1d5e7;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1060" y="690" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
@@ -133,7 +133,7 @@
         <mxCell id="pool" value="Temporal Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="725.5" y="985" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;opacity=70;" parent="1" vertex="1">
+        <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="375" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#d6b656;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;fillColor=#fff2cc;opacity=70;" parent="1" vertex="1">
