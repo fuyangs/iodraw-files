@@ -92,7 +92,7 @@
           <mxGeometry x="1199" y="675" width="2" height="2" as="geometry" />
         </mxCell>
         <mxCell id="left_condition" value="至少一个模态可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#4B7958;" parent="1" vertex="1">
-          <mxGeometry x="541" y="662" width="310" height="28" as="geometry" />
+          <mxGeometry x="540" y="662" width="310" height="28" as="geometry" />
         </mxCell>
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;" parent="1" vertex="1">
           <mxGeometry x="851" y="662" width="310" height="28" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry x="360" y="690" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#b85450;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="703" width="280" height="70" as="geometry" />
+          <mxGeometry x="1060" y="690" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1.5;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
