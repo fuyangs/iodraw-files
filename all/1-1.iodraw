@@ -73,7 +73,7 @@
           <mxGeometry x="70" y="465" width="1560" height="345" as="geometry" />
         </mxCell>
         <mxCell id="fusion_input" value="H_T　　H_A　　H_V　　+　　M_T，M_A，M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1.25;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#7C541B;" parent="1" vertex="1">
-          <mxGeometry x="575" y="515" width="550" height="45" as="geometry" />
+          <mxGeometry x="575" y="515" width="435" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dynamic_fusion" value="Missing-Aware Dynamic Fusion&#xa;缺失模态屏蔽　→　Masked Softmax　→　可用模态动态权重分配" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEBC5;strokeColor=#D79634;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#684511;" parent="1" vertex="1">
           <mxGeometry x="510" y="585" width="680" height="65" as="geometry" />
