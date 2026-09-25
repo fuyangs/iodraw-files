@@ -100,7 +100,7 @@
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;fontColor=#EA6B66;" parent="1" vertex="1">
           <mxGeometry x="850" y="662" width="310" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="weighted_fusion" target="stage2">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;strokeWidth=1.3;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="weighted_fusion" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;opacity=50;" parent="1" vertex="1">
