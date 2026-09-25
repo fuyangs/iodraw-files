@@ -38,7 +38,7 @@
           <mxGeometry x="1270" y="350" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mask" value="Modality Availability Masks&lt;br&gt;M_T，M_A，M_V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="345" width="260" height="90" as="geometry" />
+          <mxGeometry x="420" y="310" width="260" height="65" as="geometry" />
         </mxCell>
         <mxCell id="dynamic_fusion" value="② 缺失感知动态门控融合&#xa;Missing-Aware Dynamic Fusion&#xa;屏蔽缺失模态 → Masked Softmax → 动态权重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=17;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="470" width="480" height="100" as="geometry" />
