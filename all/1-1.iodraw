@@ -76,7 +76,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="dynamic_fusion" target="weighted_fusion">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="dynamic_fusion" target="gap_embedding">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1.3;" edge="1" parent="1" source="dynamic_fusion" target="gap_embedding">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dynamic_fusion" value="Missing-Aware Dynamic Fusion&#xa;缺失模态屏蔽　→　Masked Softmax　→　可用模态动态权重分配" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEBC5;strokeColor=#D79634;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#684511;" parent="1" vertex="1">
