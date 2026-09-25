@@ -218,11 +218,8 @@
         <mxCell id="e_distill1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#C67662;strokeWidth=1.25;           endArrow=block;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="teacher_text" target="teacher_pca" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_distill2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#C67662;strokeWidth=1.25;           endArrow=block;endFill=1;" parent="1" source="teacher_pca" target="distillation" edge="1">
+        <mxCell id="e_distill2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#C67662;strokeWidth=1.25;           endArrow=block;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="teacher_pca" target="distillation" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="legend" value="MATDF 主干：训练与推理均使用　｜　下方鲁棒学习策略：仅训练阶段使用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=12;           fontColor=#6A6A6A;" parent="1" vertex="1">
-          <mxGeometry x="410" y="1540" width="880" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
