@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0" version="24.7.17">
   <diagram id="MATDF-Q2-v3" name="MATDF主方法流程图">
-    <mxGraphModel dx="2583" dy="1419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1600" background="#FAFBFC" math="1" shadow="0">
+    <mxGraphModel dx="3178" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1600" background="#FAFBFC" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,7 +127,7 @@
         <mxCell id="bb_center" style="ellipse;fillOpacity=0;strokeOpacity=0;opacity=60;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="849" y="820" width="2" height="2" as="geometry" />
         </mxCell>
-        <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#315E83;opacity=60;fontFamily=Verdana;" parent="1" vertex="1">
+        <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#315E83;opacity=60;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="570" y="900" width="560" height="58" as="geometry" />
         </mxCell>
         <mxCell id="pool" value="Temporal Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
