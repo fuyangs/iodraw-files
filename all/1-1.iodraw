@@ -137,7 +137,7 @@
           <mxGeometry x="570" y="900" width="560" height="58" as="geometry" />
         </mxCell>
         <mxCell id="pool" value="Temporal Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;" parent="1" vertex="1">
-          <mxGeometry x="620" y="955" width="250" height="50" as="geometry" />
+          <mxGeometry x="725" y="958" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#74AE84;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;" parent="1" vertex="1">
           <mxGeometry x="375" y="1025" width="350" height="60" as="geometry" />
@@ -225,7 +225,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="legend" value="MATDF 主干：训练与推理均使用　｜　下方鲁棒学习策略：仅训练阶段使用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=12;           fontColor=#6A6A6A;" parent="1" vertex="1">
-          <mxGeometry x="410" y="1435" width="880" height="30" as="geometry" />
+          <mxGeometry x="410" y="1540" width="880" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
