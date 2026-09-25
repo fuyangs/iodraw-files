@@ -167,7 +167,7 @@
         <mxCell id="stage4" value="训练阶段  鲁棒学习策略（Training Only）" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#F4EFF9;strokeColor=#9673a6;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="70" y="1240" width="1560" height="265" as="geometry" />
         </mxCell>
-        <mxCell id="aug_panel" value="&lt;font color=&quot;#ffb570&quot;&gt;连续局部缺失增强&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF6E5;strokeColor=#d6b656;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#805B24;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;" parent="1" vertex="1">
+        <mxCell id="aug_panel" value="&lt;font color=&quot;#ffb366&quot;&gt;连续局部缺失增强&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF6E5;strokeColor=#d6b656;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#805B24;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="110" y="1305" width="440" height="155" as="geometry" />
         </mxCell>
         <mxCell id="full_sample" value="Full Sample" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF0CF;strokeColor=#DEA956;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;" parent="1" vertex="1">
