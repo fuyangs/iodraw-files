@@ -67,7 +67,7 @@
         <mxCell id="e_vision2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#D77D6B;strokeWidth=1.3;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="vision_encoder" target="hv" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="stage2" target="stage3">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" edge="1" parent="1" source="stage2" target="stage3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#d79b00;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#ffe6cc;" parent="1" vertex="1">
@@ -100,8 +100,14 @@
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;fontColor=#EA6B66;" parent="1" vertex="1">
           <mxGeometry x="850" y="662" width="310" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="weighted_fusion" target="stage2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;opacity=50;" parent="1" vertex="1">
           <mxGeometry x="360" y="690" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gap_embedding" target="stage2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#F19C99;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1060" y="690" width="280" height="70" as="geometry" />
