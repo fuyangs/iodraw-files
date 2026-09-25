@@ -45,6 +45,9 @@
         <mxCell id="ha" value="H_A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="135" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="WkJJZAafrxJIS582_fAj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hv" target="network_panel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hv" value="H_V" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1320" y="135" width="80" height="80" as="geometry" />
         </mxCell>
@@ -185,13 +188,6 @@
         </mxCell>
         <mxCell id="t10" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=block;endFill=1;strokeWidth=2;" parent="1" source="pca_teacher" target="distillation_loss" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WkJJZAafrxJIS582_fAj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="network_panel">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="881" y="240" as="sourcePoint" />
-            <mxPoint x="850" y="300" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
