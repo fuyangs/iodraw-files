@@ -70,7 +70,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;opacity=60;" edge="1" parent="1" source="stage2" target="stage3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#ffe6cc;opacity=60;" parent="1" vertex="1">
+        <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#b85450;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#f8cecc;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="120" y="450" width="1440" height="360" as="geometry" />
         </mxCell>
         <mxCell id="fusion_input" value="H_T&amp;nbsp; &amp;nbsp;H_A&amp;nbsp; &amp;nbsp;H_V　　+　　M_T&amp;nbsp; &amp;nbsp;M_A&amp;nbsp; &amp;nbsp;M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#7C541B;opacity=60;" parent="1" vertex="1">
@@ -109,7 +109,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="gap_embedding" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#F19C99;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#f8cecc;opacity=70;" parent="1" vertex="1">
+        <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1060" y="690" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
