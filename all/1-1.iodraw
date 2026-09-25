@@ -121,12 +121,6 @@
         <mxCell id="e_weight_bottom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="weighted_fusion" target="bb_left" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_gap_bottom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="gap_embedding" target="bb_right" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_bottom_right" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="bb_right" target="bb_center" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#315E83;" parent="1" vertex="1">
           <mxGeometry x="570" y="875" width="560" height="58" as="geometry" />
         </mxCell>
@@ -138,9 +132,6 @@
         </mxCell>
         <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#D69A5E;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;" parent="1" vertex="1">
           <mxGeometry x="975" y="1025" width="350" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="e_merge_bigru" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.5;           endArrow=block;endFill=1;" parent="1" source="bb_center" target="fusion_bigru" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_bigru_pool" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1.4;           endArrow=block;endFill=1;" parent="1" source="fusion_bigru" target="pool" edge="1">
           <mxGeometry relative="1" as="geometry" />
