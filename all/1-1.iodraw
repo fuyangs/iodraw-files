@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#ffe6cc;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="310" y="450" width="1250" height="360" as="geometry" />
+          <mxGeometry x="120" y="450" width="1440" height="360" as="geometry" />
         </mxCell>
         <mxCell id="fusion_input" value="H_T&amp;nbsp; &amp;nbsp;H_A&amp;nbsp; &amp;nbsp;H_V　　+　　M_T&amp;nbsp; &amp;nbsp;M_A&amp;nbsp; &amp;nbsp;M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#7C541B;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="622.5" y="510" width="435" height="35" as="geometry" />
@@ -116,7 +116,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stage3" value="第三阶段  时序上下文建模与双任务预测" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#ECF6FF;strokeColor=#6c8ebf;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#dae8fc;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="120" y="850" width="1440" height="320" as="geometry" />
+          <mxGeometry x="310" y="850" width="1250" height="320" as="geometry" />
         </mxCell>
         <mxCell id="bb_left" style="ellipse;fillOpacity=0;strokeOpacity=0;opacity=60;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="499" y="820" width="2" height="2" as="geometry" />
