@@ -37,7 +37,7 @@
         <mxCell id="ha" value="H_A" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#D8EBFF;strokeColor=#7EAFE0;strokeWidth=1.2;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="725" y="320" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vision_panel" value="视觉模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#d79b00;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#A44F3F;verticalAlign=top;spacingTop=10;fillColor=#ffe6cc;opacity=80;" parent="1" vertex="1">
+        <mxCell id="vision_panel" value="视觉模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#d79b00;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#A44F3F;verticalAlign=top;spacingTop=10;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1110" y="145" width="400" height="220" as="geometry" />
         </mxCell>
         <mxCell id="vision_input" value="Vision 输入  50×35" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF8F6;strokeColor=#E18B79;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
