@@ -52,7 +52,7 @@
         <mxCell id="mask" value="模态可用性掩码  M_T，M_A，M_V　　（1：可用　0：缺失）" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E6F3DF;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#466B38;" parent="1" vertex="1">
           <mxGeometry x="560" y="382" width="580" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="e_text1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#D69A58;strokeWidth=1.3;           endArrow=block;endFill=1;" parent="1" source="text_input" target="text_encoder" edge="1">
+        <mxCell id="e_text1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#D69A58;strokeWidth=1.3;           endArrow=block;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="text_input" target="text_encoder" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_text2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#D69A58;strokeWidth=1.3;           endArrow=block;endFill=1;" parent="1" source="text_encoder" target="ht" edge="1">
@@ -146,7 +146,7 @@
         <mxCell id="e_right_vertical" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=block;endFill=1;" parent="1" source="bt_right" target="gap_embedding" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="stage3" value="第三阶段  时序上下文建模与双任务预测" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#ECF6FF;strokeColor=#80AED4;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;" parent="1" vertex="1">
+        <mxCell id="stage3" value="第三阶段  时序上下文建模与双任务预测" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#ECF6FF;strokeColor=#6c8ebf;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="70" y="835" width="1560" height="255" as="geometry" />
         </mxCell>
         <mxCell id="bb_left" style="ellipse;fillOpacity=0;strokeOpacity=0;opacity=0;" parent="1" vertex="1">
@@ -204,7 +204,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="stage4" value="训练阶段  鲁棒学习策略（Training Only）" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#F4EFF9;strokeColor=#AA91C1;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;" parent="1" vertex="1">
+        <mxCell id="stage4" value="训练阶段  鲁棒学习策略（Training Only）" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#F4EFF9;strokeColor=#9673a6;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="70" y="1125" width="1560" height="285" as="geometry" />
         </mxCell>
         <mxCell id="training_note" value="仅在附件2训练阶段启用；附件3最终推理时不再人工施加缺失，也不使用教师特征" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=12;           fontColor=#6F617B;" parent="1" vertex="1">
