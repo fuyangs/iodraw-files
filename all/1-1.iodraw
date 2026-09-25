@@ -8,7 +8,7 @@
           <mxGeometry x="350" y="20" width="1000" height="50" as="geometry" />
         </mxCell>
         <mxCell id="stage1" value="第一阶段  三模态时序特征编码" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#EFF8F1;strokeColor=#82b366;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#d5e8d4;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="70" y="90" width="1560" height="350" as="geometry" />
+          <mxGeometry x="70" y="90" width="1560" height="320" as="geometry" />
         </mxCell>
         <mxCell id="text_panel" value="文本模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF4E8;strokeColor=#d6b656;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#9A5C20;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="125" y="145" width="430" height="220" as="geometry" />
@@ -27,11 +27,6 @@
         </mxCell>
         <mxCell id="audio_input" value="Audio 输入  50×74" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F5FAFF;strokeColor=#7EAFE0;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="710" y="190" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;curved=0;strokeWidth=1.3;" edge="1" parent="1" source="audio_encoder" target="stage2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="850" y="382" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="audio_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F2F8FF;strokeColor=#7EAFE0;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="710" y="255" width="280" height="35" as="geometry" />
@@ -98,15 +93,6 @@
         </mxCell>
         <mxCell id="gap_embedding" value="Gap Embedding&#xa;使用可学习缺口向量表示&#xa;当前时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#D59067;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;" parent="1" vertex="1">
           <mxGeometry x="1060" y="720" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="e_hv_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#7C919F;strokeWidth=1.3;           endArrow=block;endFill=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="hv" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1360" y="400" />
-              <mxPoint x="850" y="400" />
-            </Array>
-            <mxPoint x="850" y="460" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1.5;           endArrow=block;endFill=1;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
