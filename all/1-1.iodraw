@@ -10,7 +10,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;curved=0;strokeWidth=2;" edge="1" parent="1" source="stage1" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="stage1" value="第一阶段  三模态时序特征编码" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#EFF8F1;strokeColor=#82b366;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#d5e8d4;fillStyle=auto;" parent="1" vertex="1">
+        <mxCell id="stage1" value="第一阶段  三模态时序特征编码" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#EFF8F1;strokeColor=#82b366;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#d5e8d4;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="120" y="90" width="1440" height="320" as="geometry" />
         </mxCell>
         <mxCell id="text_panel" value="文本模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF4E8;strokeColor=#d6b656;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#9A5C20;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;" parent="1" vertex="1">
@@ -103,7 +103,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1.3;" edge="1" parent="1" source="weighted_fusion" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#97D077;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="360" y="690" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JWlcOtyVbqr8phrsj7qk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="gap_embedding">
