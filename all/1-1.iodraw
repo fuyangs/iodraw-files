@@ -41,7 +41,7 @@
           <mxGeometry x="1050" y="140" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="vision_input" value="Vision 输入  50×35" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF8F6;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="190" width="280" height="40" as="geometry" />
+          <mxGeometry x="1110" y="190" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vision_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF6F3;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="1170" y="255" width="280" height="35" as="geometry" />
