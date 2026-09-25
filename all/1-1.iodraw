@@ -136,8 +136,8 @@
         <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#315E83;" parent="1" vertex="1">
           <mxGeometry x="570" y="900" width="560" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="pool" value="Temporal Pooling　→　样本级融合情感表示 z" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;" parent="1" vertex="1">
-          <mxGeometry x="620" y="955" width="460" height="50" as="geometry" />
+        <mxCell id="pool" value="Temporal Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;" parent="1" vertex="1">
+          <mxGeometry x="620" y="955" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#74AE84;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;" parent="1" vertex="1">
           <mxGeometry x="375" y="1025" width="350" height="60" as="geometry" />
