@@ -103,7 +103,7 @@
         <mxCell id="e_dyn_center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="dynamic_fusion" target="bt_center" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_branch_left" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="bt_center" target="bt_left" edge="1">
+        <mxCell id="e_branch_left" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="1" source="bt_center" target="weighted_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_branch_right" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="bt_center" target="bt_right" edge="1">
