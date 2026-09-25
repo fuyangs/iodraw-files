@@ -170,7 +170,7 @@
         <mxCell id="aug_panel" value="&lt;font color=&quot;#ffc53d&quot;&gt;连续局部缺失增强&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF6E5;strokeColor=#d6b656;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#805B24;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="110" y="1305" width="440" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="full_sample" value="Full Sample" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF0CF;strokeColor=#DEA956;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="full_sample" value="Full Sample" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF0CF;strokeColor=#DEA956;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="1365" width="105" height="42" as="geometry" />
         </mxCell>
         <mxCell id="aug_block" value="连续局部缺失生成&#xa;类型 / 比例 / 位置 / 区间数" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE9BB;strokeColor=#DEA956;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;" parent="1" vertex="1">
