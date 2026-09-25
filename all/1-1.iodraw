@@ -191,7 +191,7 @@
         <mxCell id="consistency" value="Consistency Loss&#xa;分类概率一致性&#xa;+&#xa;回归强度一致性" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#CFE6FA;strokeColor=#7EAED4;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=12;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="1345" width="185" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="distill_panel" value="文本教师蒸馏" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#F19C99;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8C4C3E;verticalAlign=top;spacingTop=10;fillColor=#f8cecc;" parent="1" vertex="1">
+        <mxCell id="distill_panel" value="&lt;font color=&quot;#ea6b66&quot;&gt;文本教师蒸馏&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#F19C99;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8C4C3E;verticalAlign=top;spacingTop=10;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1305" width="430" height="155" as="geometry" />
         </mxCell>
         <mxCell id="teacher_text" value="text&#xa;50×768" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE1DA;strokeColor=#D88975;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;" parent="1" vertex="1">
