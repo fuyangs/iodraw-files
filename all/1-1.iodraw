@@ -74,7 +74,7 @@
           <mxGeometry x="310" y="450" width="1100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="fusion_input" value="H_T&amp;nbsp; &amp;nbsp;H_A&amp;nbsp; &amp;nbsp;H_V　　+　　M_T&amp;nbsp; &amp;nbsp;M_A&amp;nbsp; &amp;nbsp;M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#7C541B;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="622.5" y="510" width="435" height="35" as="geometry" />
+          <mxGeometry x="642.5" y="505" width="435" height="35" as="geometry" />
         </mxCell>
         <mxCell id="JWlcOtyVbqr8phrsj7qk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="dynamic_fusion" target="weighted_fusion">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dynamic_fusion" value="Missing-Aware Dynamic Fusion&#xa;缺失模态屏蔽　→　Masked Softmax　→　可用模态动态权重分配" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEBC5;strokeColor=#D79634;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#684511;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="500" y="570" width="680" height="55" as="geometry" />
+          <mxGeometry x="520" y="565" width="680" height="55" as="geometry" />
         </mxCell>
         <mxCell id="bt_center" style="ellipse;fillOpacity=0;strokeOpacity=0;opacity=60;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="849" y="675" width="2" height="2" as="geometry" />
@@ -95,22 +95,22 @@
           <mxGeometry x="1199" y="675" width="2" height="2" as="geometry" />
         </mxCell>
         <mxCell id="left_condition" value="至少一个模态可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#4B7958;fontColor=#97D077;opacity=60;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="662" width="310" height="28" as="geometry" />
+          <mxGeometry x="560" y="657" width="310" height="28" as="geometry" />
         </mxCell>
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;fontColor=#EA6B66;opacity=60;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="662" width="310" height="28" as="geometry" />
+          <mxGeometry x="870" y="657" width="310" height="28" as="geometry" />
         </mxCell>
         <mxCell id="JWlcOtyVbqr8phrsj7qk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" edge="1" parent="1" source="weighted_fusion" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;opacity=70;" parent="1" vertex="1">
-          <mxGeometry x="360" y="690" width="280" height="70" as="geometry" />
+          <mxGeometry x="380" y="685" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JWlcOtyVbqr8phrsj7qk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="gap_embedding" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#9673a6;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#e1d5e7;opacity=70;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="690" width="280" height="70" as="geometry" />
+          <mxGeometry x="1080" y="685" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
