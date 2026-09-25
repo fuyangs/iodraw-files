@@ -108,12 +108,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_hv_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#7C919F;strokeWidth=2;           endArrow=block;endFill=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="hv" target="fusion_input" edge="1">
+        <mxCell id="e_hv_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#7C919F;strokeWidth=2;           endArrow=block;endFill=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="hv" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1360" y="455" />
-              <mxPoint x="1000" y="455" />
+              <mxPoint x="1360" y="400" />
+              <mxPoint x="850" y="400" />
             </Array>
+            <mxPoint x="850" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1.5;           endArrow=block;endFill=1;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
