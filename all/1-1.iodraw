@@ -97,10 +97,10 @@
         <mxCell id="gap_embedding" value="Gap Embedding&#xa;使用可学习缺口向量表示&#xa;当前时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#D59067;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;" parent="1" vertex="1">
           <mxGeometry x="1060" y="720" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1.5;           endArrow=block;endFill=1;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
+        <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1.5;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_dyn_center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="dynamic_fusion" target="bt_center" edge="1">
+        <mxCell id="e_dyn_center" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="dynamic_fusion" target="bt_center" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_branch_left" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;" parent="1" source="bt_center" target="bt_left" edge="1">
