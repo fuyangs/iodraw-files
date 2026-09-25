@@ -74,7 +74,7 @@
           <mxGeometry x="120" y="450" width="1440" height="360" as="geometry" />
         </mxCell>
         <mxCell id="fusion_input" value="H_T&amp;nbsp; &amp;nbsp;H_A&amp;nbsp; &amp;nbsp;H_V　　+　　M_T&amp;nbsp; &amp;nbsp;M_A&amp;nbsp; &amp;nbsp;M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#7C541B;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="633" y="510" width="435" height="35" as="geometry" />
+          <mxGeometry x="622.5" y="510" width="435" height="35" as="geometry" />
         </mxCell>
         <mxCell id="JWlcOtyVbqr8phrsj7qk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="dynamic_fusion" target="weighted_fusion">
           <mxGeometry relative="1" as="geometry" />
@@ -127,7 +127,7 @@
         <mxCell id="bb_center" style="ellipse;fillOpacity=0;strokeOpacity=0;opacity=60;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="849" y="820" width="2" height="2" as="geometry" />
         </mxCell>
-        <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
+        <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#315E83;opacity=60;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="570" y="900" width="560" height="58" as="geometry" />
         </mxCell>
         <mxCell id="pool" value="Temporal Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
