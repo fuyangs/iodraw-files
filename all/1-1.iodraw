@@ -102,9 +102,8 @@
         <mxCell id="e_ht_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#7C919F;strokeWidth=2;           endArrow=block;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;curved=0;" parent="1" source="ht" target="fusion_input" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="455" />
-              <mxPoint x="700" y="455" />
-              <mxPoint x="700" y="515" />
+              <mxPoint x="340" y="400" />
+              <mxPoint x="700" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
