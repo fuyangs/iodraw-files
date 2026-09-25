@@ -74,7 +74,7 @@
           <mxGeometry x="633" y="510" width="435" height="35" as="geometry" />
         </mxCell>
         <mxCell id="dynamic_fusion" value="Missing-Aware Dynamic Fusion&#xa;缺失模态屏蔽　→　Masked Softmax　→　可用模态动态权重分配" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEBC5;strokeColor=#D79634;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#684511;" parent="1" vertex="1">
-          <mxGeometry x="510" y="585" width="680" height="55" as="geometry" />
+          <mxGeometry x="510" y="570" width="680" height="55" as="geometry" />
         </mxCell>
         <mxCell id="bt_center" style="ellipse;fillOpacity=0;strokeOpacity=0;opacity=0;" parent="1" vertex="1">
           <mxGeometry x="849" y="675" width="2" height="2" as="geometry" />
@@ -104,7 +104,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_branch_left" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="bt_center" target="weighted_fusion" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="650" />
+              <mxPoint x="500" y="650" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e_branch_right" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#555555;strokeWidth=1.45;           endArrow=none;fillColor=#ffe6cc;strokeColor=#d79b00;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bt_center" target="gap_embedding" edge="1">
           <mxGeometry relative="1" as="geometry" />
