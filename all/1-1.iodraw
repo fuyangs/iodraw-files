@@ -150,9 +150,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_pool_reg" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#6F9ABF;strokeWidth=1;           endArrow=block;endFill=1;curved=0;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=60;" parent="1" source="pool" target="regression_head" edge="1">
+        <mxCell id="e_pool_reg" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#6F9ABF;strokeWidth=1;           endArrow=block;endFill=1;curved=0;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=60;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pool" target="regression_head" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="850" y="1035" />
               <mxPoint x="850" y="1060" />
               <mxPoint x="1150" y="1060" />
             </Array>
