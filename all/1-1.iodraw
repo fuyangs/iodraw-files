@@ -28,7 +28,7 @@
         <mxCell id="audio_input" value="Audio 输入  50×74" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F5FAFF;strokeColor=#7EAFE0;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="710" y="190" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audio_encoder" target="fusion_input">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="audio_encoder" target="fusion_input">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="382" as="targetPoint" />
           </mxGeometry>
