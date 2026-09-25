@@ -41,13 +41,13 @@
           <mxGeometry x="1145" y="145" width="430" height="220" as="geometry" />
         </mxCell>
         <mxCell id="vision_input" value="Vision 输入  50×35" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF8F6;strokeColor=#E18B79;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="190" width="280" height="48" as="geometry" />
+          <mxGeometry x="1220" y="190" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vision_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF6F3;strokeColor=#E18B79;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="255" width="280" height="48" as="geometry" />
+          <mxGeometry x="1220" y="255" width="280" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hv" value="视觉时序表示  H_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE0D9;strokeColor=#E18B79;strokeWidth=1.2;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1235" y="320" width="250" height="42" as="geometry" />
+          <mxGeometry x="1235" y="320" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mask" value="模态可用性掩码  M_T，M_A，M_V　　（1：可用　0：缺失）" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E6F3DF;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#466B38;" parent="1" vertex="1">
           <mxGeometry x="560" y="382" width="580" height="42" as="geometry" />
