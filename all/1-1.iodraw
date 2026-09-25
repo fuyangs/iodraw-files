@@ -86,7 +86,7 @@
           <mxGeometry x="1199" y="675" width="2" height="2" as="geometry" />
         </mxCell>
         <mxCell id="left_condition" value="至少一个模态可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#4B7958;" parent="1" vertex="1">
-          <mxGeometry x="345" y="685" width="310" height="28" as="geometry" />
+          <mxGeometry x="530" y="675" width="310" height="28" as="geometry" />
         </mxCell>
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;" parent="1" vertex="1">
           <mxGeometry x="1045" y="685" width="310" height="28" as="geometry" />
