@@ -28,11 +28,14 @@
         <mxCell id="audio_input" value="Audio 输入  50×74" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F5FAFF;strokeColor=#7EAFE0;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="710" y="190" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="audio_encoder" target="mask">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="audio_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F2F8FF;strokeColor=#7EAFE0;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="710" y="255" width="280" height="48" as="geometry" />
+          <mxGeometry x="710" y="255" width="280" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ha" value="音频时序表示  H_A" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#D8EBFF;strokeColor=#7EAFE0;strokeWidth=1.2;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="725" y="320" width="250" height="42" as="geometry" />
+          <mxGeometry x="725" y="320" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vision_panel" value="视觉模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#d79b00;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#A44F3F;verticalAlign=top;spacingTop=10;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="1145" y="145" width="430" height="220" as="geometry" />
