@@ -124,8 +124,11 @@
         <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;" parent="1" source="ha" target="dynamic_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;" parent="1" source="hv" target="dynamic_fusion" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="370" as="sourcePoint" />
+            <mxPoint x="850" y="525" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;" parent="1" source="mask" target="dynamic_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
