@@ -192,16 +192,16 @@
           <mxGeometry x="850" y="1345" width="185" height="95" as="geometry" />
         </mxCell>
         <mxCell id="distill_panel" value="&lt;font color=&quot;#ea6b66&quot;&gt;文本教师蒸馏&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#F19C99;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8C4C3E;verticalAlign=top;spacingTop=10;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="1305" width="430" height="155" as="geometry" />
+          <mxGeometry x="1110" y="1305" width="430" height="155" as="geometry" />
         </mxCell>
         <mxCell id="teacher_text" value="text&#xa;50×768" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE1DA;strokeColor=#D88975;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="1365" width="85" height="45" as="geometry" />
+          <mxGeometry x="1140" y="1365" width="85" height="45" as="geometry" />
         </mxCell>
         <mxCell id="teacher_pca" value="PCA&#xa;768→128" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE6E0;strokeColor=#D88975;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="1365" width="90" height="45" as="geometry" />
+          <mxGeometry x="1260" y="1365" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="distillation" value="Distillation Loss&#xa;监督 Text Encoder" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFD8D0;strokeColor=#D88975;strokeWidth=1.1;           fontFamily=Microsoft YaHei;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1425" y="1355" width="125" height="65" as="geometry" />
+          <mxGeometry x="1385" y="1355" width="125" height="65" as="geometry" />
         </mxCell>
         <mxCell id="e_aug1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#C69242;strokeWidth=1.25;           endArrow=block;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="full_sample" target="aug_block" edge="1">
           <mxGeometry relative="1" as="geometry" />
