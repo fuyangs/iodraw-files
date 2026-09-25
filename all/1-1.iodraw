@@ -44,10 +44,10 @@
           <mxGeometry x="1110" y="190" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vision_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF6F3;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="255" width="280" height="35" as="geometry" />
+          <mxGeometry x="1110" y="255" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hv" value="H_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE0D9;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="1185" y="320" width="250" height="30" as="geometry" />
+          <mxGeometry x="1110" y="310" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e_text1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#D69A58;strokeWidth=1;           endArrow=block;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=60;" parent="1" source="text_input" target="text_encoder" edge="1">
           <mxGeometry relative="1" as="geometry" />
