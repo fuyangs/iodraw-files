@@ -14,7 +14,7 @@
           <mxGeometry x="310" y="90" width="1100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="text_panel" value="文本模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF4E8;strokeColor=#d6b656;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#9A5C20;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;opacity=70;" parent="1" vertex="1">
-          <mxGeometry x="210" y="145" width="380" height="220" as="geometry" />
+          <mxGeometry x="677.5" y="145" width="380" height="220" as="geometry" />
         </mxCell>
         <mxCell id="text_input" value="Text 输入  text_bert（3×50）" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF9F2;strokeColor=#E5A363;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="260" y="190" width="280" height="40" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="745.5" y="255" width="210" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ha" value="H_A" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#D8EBFF;strokeColor=#7EAFE0;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="725" y="320" width="195" height="30" as="geometry" />
+          <mxGeometry x="752.5" y="320" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vision_panel" value="视觉模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#A44F3F;verticalAlign=top;spacingTop=10;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1110" y="145" width="400" height="220" as="geometry" />
