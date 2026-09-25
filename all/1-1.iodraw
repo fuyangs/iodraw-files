@@ -28,7 +28,7 @@
         <mxCell id="audio_input" value="Audio 输入  50×74" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F5FAFF;strokeColor=#7EAFE0;strokeWidth=1.15;           fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="710" y="190" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="audio_encoder">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audio_encoder" target="fusion_input">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="382" as="targetPoint" />
           </mxGeometry>
@@ -115,11 +115,6 @@
               <mxPoint x="1000" y="455" />
               <mxPoint x="1000" y="515" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e_mask_input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6D9B5A;strokeWidth=1.35;           endArrow=block;endFill=1;" parent="1" target="fusion_input" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="850" y="424" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e_input_dynamic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#BF8938;strokeWidth=1.5;           endArrow=block;endFill=1;" parent="1" source="fusion_input" target="dynamic_fusion" edge="1">
