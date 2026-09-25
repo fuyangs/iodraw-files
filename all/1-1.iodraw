@@ -10,7 +10,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;curved=0;strokeWidth=2;" edge="1" parent="1" source="stage1" target="stage2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="stage1" value="第一阶段  三模态时序特征编码" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#EFF8F1;strokeColor=#82b366;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#d5e8d4;fillStyle=auto;" parent="1" vertex="1">
+        <mxCell id="stage1" value="第一阶段  三模态时序特征编码" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#EFF8F1;strokeColor=#E6FFCC;strokeWidth=1.6;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#d5e8d4;fillStyle=auto;" parent="1" vertex="1">
           <mxGeometry x="70" y="90" width="1560" height="320" as="geometry" />
         </mxCell>
         <mxCell id="text_panel" value="文本模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF4E8;strokeColor=#d6b656;strokeWidth=1.4;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#9A5C20;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;" parent="1" vertex="1">
@@ -142,7 +142,7 @@
         <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#82b366;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="375" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#D69A5E;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;" parent="1" vertex="1">
+        <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#d6b656;strokeWidth=1.35;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="990" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_bigru_pool" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1.4;           endArrow=block;endFill=1;" parent="1" source="fusion_bigru" target="pool" edge="1">
