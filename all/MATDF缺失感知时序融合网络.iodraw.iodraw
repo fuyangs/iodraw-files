@@ -182,13 +182,13 @@
         <mxCell id="pred_missing" value="Prediction_miss" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#7EAED4;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="660" y="1400" width="135" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="consistency" value="Consistency Loss&#xa;分类概率一致性&#xa;+&#xa;回归强度一致性" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#CFE6FA;strokeColor=#7EAED4;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;fontStyle=1;opacity=60;" parent="1" vertex="1">
+        <mxCell id="consistency" value="Consistency Loss&#xa;分类概率一致性&#xa;+&#xa;回归强度一致性" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#CFE6FA;strokeColor=#7EAED4;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="850" y="1345" width="185" height="95" as="geometry" />
         </mxCell>
         <mxCell id="distill_panel" value="&lt;font color=&quot;#ea6b66&quot;&gt;文本教师蒸馏&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#F19C99;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8C4C3E;verticalAlign=top;spacingTop=10;fillColor=#f8cecc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1305" width="430" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="teacher_text" value="text&#xa;50×768" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE1DA;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;opacity=60;" parent="1" vertex="1">
+        <mxCell id="teacher_text" value="text&#xa;50×768" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE1DA;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="1140" y="1365" width="85" height="45" as="geometry" />
         </mxCell>
         <mxCell id="teacher_pca" value="PCA&#xa;768→128" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE6E0;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;opacity=60;" parent="1" vertex="1">
