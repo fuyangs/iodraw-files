@@ -130,10 +130,10 @@
         <mxCell id="fusion_bigru" value="Fusion BiGRU&#xa;利用前后时序上下文补偿局部信息缺口" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#F3F9FF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#315E83;opacity=60;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="580" y="900" width="560" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="pool" value="Masked Attention Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
+        <mxCell id="pool" value="Masked Attention Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="735.5" y="985" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
+        <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#3D6B49;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="385" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#d6b656;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;fillColor=#fff2cc;opacity=70;" parent="1" vertex="1">
