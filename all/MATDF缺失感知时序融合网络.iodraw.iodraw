@@ -188,10 +188,10 @@
         <mxCell id="distill_panel" value="&lt;font color=&quot;#ea6b66&quot;&gt;文本教师蒸馏&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#F19C99;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8C4C3E;verticalAlign=top;spacingTop=10;fillColor=#f8cecc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1305" width="430" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="teacher_text" value="text&#xa;50×768" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE1DA;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
+        <mxCell id="teacher_text" value="text&#xa;50×768" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE1DA;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1140" y="1365" width="85" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="teacher_pca" value="PCA&#xa;768→128" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE6E0;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;opacity=60;" parent="1" vertex="1">
+        <mxCell id="teacher_pca" value="PCA&#xa;768→128" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE6E0;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1365" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="distillation" value="Distillation Loss&#xa;监督 Text Encoder" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFD8D0;strokeColor=#D88975;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;fontStyle=1;opacity=60;" parent="1" vertex="1">
