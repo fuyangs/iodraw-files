@@ -70,7 +70,7 @@
         <mxCell id="JWlcOtyVbqr8phrsj7qk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;opacity=60;" parent="1" source="stage2" target="stage3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=19;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#ffe6cc;opacity=60;" parent="1" vertex="1">
+        <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=19;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#ffe6cc;opacity=80;" parent="1" vertex="1">
           <mxGeometry x="310" y="450" width="1100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="fusion_input" value="H_T&amp;nbsp; &amp;nbsp;H_A&amp;nbsp; &amp;nbsp;H_V　　+　　M_T&amp;nbsp; &amp;nbsp;M_A&amp;nbsp; &amp;nbsp;M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#7C541B;opacity=60;" parent="1" vertex="1">
