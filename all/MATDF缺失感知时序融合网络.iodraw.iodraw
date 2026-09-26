@@ -133,10 +133,10 @@
         <mxCell id="pool" value="Masked Attention Pooling" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#DCEEFF;strokeColor=#78A8CF;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#315E83;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="735.5" y="985" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#3D6B49;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
+        <mxCell id="classification_head" value="Classification Head&#xa;Negative / Neutral / Positive" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#3D6B49;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="385" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#d6b656;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#80552C;fillColor=#fff2cc;opacity=70;" parent="1" vertex="1">
+        <mxCell id="regression_head" value="Regression Head&#xa;Sentiment Intensity ∈ [-3, 3]" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF0E3;strokeColor=#d6b656;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#80552C;fillColor=#fff2cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1000" y="1090" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_bigru_pool" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;           strokeColor=#6F9ABF;strokeWidth=1;           endArrow=block;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=60;" parent="1" source="fusion_bigru" target="pool" edge="1">
@@ -164,7 +164,7 @@
         <mxCell id="aug_panel" value="&lt;font color=&quot;#ffc53d&quot;&gt;连续局部缺失增强&lt;/font&gt;" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFF6E5;strokeColor=#d6b656;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#805B24;verticalAlign=top;spacingTop=10;fillColor=#fff2cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="150" y="1305" width="440" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="full_sample" value="Full Sample" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF0CF;strokeColor=#DEA956;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;opacity=60;" parent="1" vertex="1">
+        <mxCell id="full_sample" value="Full Sample" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF0CF;strokeColor=#DEA956;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;opacity=60;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180" y="1365" width="105" height="42" as="geometry" />
         </mxCell>
         <mxCell id="aug_block" value="连续局部缺失生成&#xa;类型 / 比例 / 位置 / 区间数" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE9BB;strokeColor=#DEA956;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=12;opacity=60;" parent="1" vertex="1">
