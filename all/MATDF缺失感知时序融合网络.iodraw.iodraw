@@ -1,13 +1,13 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0" version="24.7.17">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0" version="24.7.17">
   <diagram id="MATDF-Q2-v3" name="MATDF主方法流程图">
-    <mxGraphModel dx="3178" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1600" background="#FAFBFC" math="1" shadow="0">
+    <mxGraphModel dx="2022" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1600" background="#FAFBFC" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="MATDF 缺失感知时序动态融合网络" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=26;fontStyle=1;           fontColor=#202124;" parent="1" vertex="1">
           <mxGeometry x="350" y="20" width="1000" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;curved=0;strokeWidth=2;opacity=60;" edge="1" parent="1" source="stage1" target="stage2">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;curved=0;strokeWidth=2;opacity=60;" parent="1" source="stage1" target="stage2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stage1" value="第一阶段  三模态时序特征编码" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#EFF8F1;strokeColor=#82b366;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#d5e8d4;fillStyle=auto;opacity=60;glass=0;shadow=0;" parent="1" vertex="1">
@@ -67,7 +67,7 @@
         <mxCell id="e_vision2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;           strokeColor=#D77D6B;strokeWidth=1;           endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" parent="1" source="vision_encoder" target="hv" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;opacity=60;" edge="1" parent="1" source="stage2" target="stage3">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;opacity=60;" parent="1" source="stage2" target="stage3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="stage2" value="第二阶段  缺失感知动态融合" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;           fillColor=#FFF7E8;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;           fontColor=#202124;verticalAlign=top;spacingTop=13;fillColor=#ffe6cc;opacity=60;" parent="1" vertex="1">
@@ -76,10 +76,10 @@
         <mxCell id="fusion_input" value="H_T&amp;nbsp; &amp;nbsp;H_A&amp;nbsp; &amp;nbsp;H_V　　+　　M_T&amp;nbsp; &amp;nbsp;M_A&amp;nbsp; &amp;nbsp;M_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF2D9;strokeColor=#DFA44A;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#7C541B;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="642.5" y="505" width="435" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="dynamic_fusion" target="weighted_fusion">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" parent="1" source="dynamic_fusion" target="weighted_fusion" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="dynamic_fusion" target="gap_embedding">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" parent="1" source="dynamic_fusion" target="gap_embedding" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dynamic_fusion" value="Missing-Aware Dynamic Fusion&#xa;缺失模态屏蔽　→　Masked Softmax　→　可用模态动态权重分配" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEBC5;strokeColor=#D79634;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#684511;opacity=60;" parent="1" vertex="1">
@@ -100,13 +100,13 @@
         <mxCell id="right_condition" value="三模态同时不可用" style="text;html=1;align=center;verticalAlign=middle;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;           fontColor=#8B5E42;fontColor=#B5739D;opacity=60;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="657" width="310" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" edge="1" parent="1" source="weighted_fusion" target="stage2">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" parent="1" source="weighted_fusion" target="stage2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="weighted_fusion" value="Weighted Fusion&lt;br&gt;可用模态动态加权" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#E8F6EC;strokeColor=#6c8ebf;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#3D6B49;fillColor=#dae8fc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="380" y="685" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JWlcOtyVbqr8phrsj7qk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" edge="1" parent="1" source="gap_embedding" target="stage2">
+        <mxCell id="JWlcOtyVbqr8phrsj7qk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;opacity=60;" parent="1" source="gap_embedding" target="stage2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gap_embedding" value="Gap Embedding&lt;br&gt;可学习缺口向量表示&lt;br&gt;时间位置完全缺失" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;           fillColor=#FFEADF;strokeColor=#9673a6;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;           fontColor=#875439;fillColor=#e1d5e7;opacity=70;" parent="1" vertex="1">
