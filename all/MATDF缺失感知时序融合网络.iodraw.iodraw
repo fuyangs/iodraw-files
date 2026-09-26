@@ -34,16 +34,16 @@
         <mxCell id="audio_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#F2F8FF;strokeColor=#7EAFE0;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="745.5" y="255" width="210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="ha" value="H_A" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#D8EBFF;strokeColor=#7EAFE0;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;opacity=60;" parent="1" vertex="1">
+        <mxCell id="ha" value="H_A" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#D8EBFF;strokeColor=#7EAFE0;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="752.5" y="320" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vision_panel" value="视觉模态" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;           fillColor=#FFF0EC;strokeColor=#d79b00;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;           fontColor=#A44F3F;verticalAlign=top;spacingTop=10;fillColor=#ffe6cc;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="1050" y="140" width="300" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="vision_input" value="Vision 输入  50×35" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF8F6;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
+        <mxCell id="vision_input" value="Vision 输入  50×35" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF8F6;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="1110" y="190" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vision_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF6F3;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;opacity=60;" parent="1" vertex="1">
+        <mxCell id="vision_encoder" value="Projection + BiGRU" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFF6F3;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=15;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="1110" y="255" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hv" value="H_V" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;           fillColor=#FFE0D9;strokeColor=#E18B79;strokeWidth=1;           fontFamily=Microsoft YaHei;fontSize=14;fontStyle=1;opacity=60;" parent="1" vertex="1">
